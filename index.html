@@ -67,7 +67,6 @@
               var changeTxt = "\nLatitude: " + position.coords.latitude + " " +
               "\nLongitude: " + position.coords.longitude;
               x.href=(`sms://${emNum}?&body=Please%20come%20get%20me.%20I%20am%20in%20an%20unsafe%20location.` + encodeURIComponent(changeTxt) +"\n" + encodeURIComponent(img_url2));
-			  alert(x.ref);
             }
             getLocation();
             </script>		
